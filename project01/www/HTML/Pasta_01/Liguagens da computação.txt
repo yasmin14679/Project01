@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Linguagens de Computação</title>
+</head>
+<body>
+
+<h1>Linguagens de Computação</h1>
+<p>Linguagem de Programação é um conjunto de instruções ou códigos que informam a um computador o que ele precisa fazer.Exemplos:Java, C, C++, C#.</p>
+<p>Linguagem de Script é basicamente a subcategoria de linguagens de programação que é usada para dar orientação a outro programa ou podemos dizer para controlar outro programa.Exemplos:Javascript, PHP, Perl, Python, VBScrip.</p>
+<p>Linguagem de Marcação prepara uma estrutura para os dados ou preparam a aparência ou o design de uma página.Exemplos:HTML ou XML.</p>
+<p>Linguagem de Estilo é utilizada para definir como os documentos escritos na linguagem de marcação (HTML ou XML) deve ser apresentado em termos de formatação e layout.Exemplo:CSS.</p>
+
+</body>
+</html>
+

@@ -1,0 +1,74 @@
+21 paises
+
+69 cidades
+
+informações de cada fornecedor 
+
+cidades 29 
+
+paises 16
+
+
+
+1 PERGUNTA 
+Country
+UK
+USA
+Japan
+Spain
+Australia
+Sweden
+Brazil
+Germany
+Italy
+Norway
+France
+Singapore
+Denmark
+Netherlands
+Finland
+Canada
+
+
+2 PERGUNTA
+Country
+Germany
+Mexico
+UK
+Sweden
+France
+Spain
+Canada
+Argentina
+Switzerland
+Brazil
+Austria
+Italy
+Portugal
+USA
+Venezuela
+Ireland
+Belgium
+Norway
+Denmark
+Finland
+Poland
+
+
+3 PERGUNTA
+Mexico
+Argentina
+Austria
+switzerland
+poland
+Portugal
+Venezuela
+Ireland
+Belgium
+
+4 PERGUNTA
+Berlin
+Sao Paulo
+Frankfurt
+Montréal
+PARIS
