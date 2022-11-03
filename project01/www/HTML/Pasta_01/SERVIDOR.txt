@@ -1,7 +1,0 @@
-Credenciais
-
-usuarios : sa
-
-passa: sqlserver
-
-https://desktop-ajb46rh:8391
