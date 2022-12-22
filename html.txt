@@ -1,0 +1,81 @@
+ <input type="text" placeholder="Your text here">
+    <input type="color" , value="#e66465"><br>
+    <button>Submit</button>
+    <button>Cancel</button>
+<form>
+      <input type="text" placeholder="Username" />
+      <input type="password" placeholder="Password" />
+      <br>
+      <button>Login</button>
+    </form>
+<label for="name">Name: </label><input type="text" id="name" /><br>
+   <label for="mail">Email: </label><input type="email" id="mail" /><br>
+<form>
+   <input type="email" placeholder="To"/><br>
+   <input type="text" placeholder="Subject" /><br>
+   <input type="text" placeholder="Email Content" />
+   <br>
+   <button>Send</button>
+  </form>
+<form>
+   <input type="text" placeholder="Enter your text here..." />
+   <br>
+   <label>Tags</label>
+   <input type="checkbox" />Education
+   <input type="checkbox" />Entertainment
+   <input type="checkbox" />Social
+   <br>
+   <button>Post</button>
+  </form>
+ <form>
+      <label for="city">City</label><input type="text" id="city" /><br>
+      <label for="from">From</label><input type="date" id="from" /><br>
+      <label for="to">To</label><input type="date" id="to" /><br>
+      <button>Search</button>
+    </form>
+<form>
+     <input type="text" placeholder="First name" /><br>
+     <input type="text" placeholder="Surname" /><br>
+     <input type="email" placeholder="Email address" /><br>
+     <input type="password" placeholder="Set Password" /><br>
+     Date of birth
+     <input type="date" placeholder="Date of birth" /><br>
+     <button>Sign up</button>
+     <button>Go to login</button>
+    </form>
+ <fieldset>
+        <legend>Patient info</legend>
+        <input type="text" placeholder="Patient's name" />
+        <input type="date" />
+        <input type="email" placeholder="Patient's email" />
+        <input type="text" placeholder="Describe the issue" />
+      </fieldset>
+      <fieldset>
+        <legend>Appointment schedule</legend>
+        <input type="date"/>
+      </fieldset>
+      <button>Submit</button>
+<form>
+   <fieldset>
+    <legend>Journey details</legend>
+    <label for="from">From</label><input type="text" id="from"/><br>
+    <label for="to">To</label><input type="text" id="to"/><br>
+    <label for="date">Date</label><input type="date" id="date"/>
+   </fieldset>
+   <fieldset>
+    <legend>Passenger details</legend>
+    <label for="name">Name</label><input type="text" id="name"/><br>
+    <label for="gender">Gender</label><input type="text" id="gender"/><br>
+    <label for="address">Address</label><input type="text" id="address" />
+   </fieldset>
+   <button>Proceed</button>
+  </form>
+<figure>
+   <img src="https://mimo.app/i/underwater.png">
+   <figcaption> The St. Lawrence River straddles New Yorks border with Canada.
+   </figcaption>
+  </figure>
+<details>
+   <summary> Answer </summary>
+   <strong>== </strong> should be <strong>=</strong>
+  </details>

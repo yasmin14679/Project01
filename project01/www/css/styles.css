@@ -1,0 +1,36 @@
+       
+       body{
+         font-family: verdana;
+        }
+        table {
+         font-family: arial, sans-serif;
+         border:  3px solid black;
+         border-left:3px solid rgb(0, 0, 0);
+         border-right:3px solid rgb(0, 0, 0);
+        }
+        td, th {
+         border: 3px solid rgb(105, 3, 3);
+         border-color: rgb(105, 3, 3);
+         border-left:3px solid rgb(105, 3, 3);
+         border-right:3px solid rgb(105, 3, 3);
+         text-align: collapse;
+         padding: 8px;
+        }
+        tr:nth-child(even) {
+         background-color: aquamarine;
+        }
+        tr {
+         background-color: rgb(128, 128, 128);
+        }
+        .tabela-linha{
+          font-style: normal;
+          font-weight: bold;
+          color: rgb(177, 23, 131); 
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .dia-semana{ 
+          font-style: normal;
+          font-weight: bold;
+          color: rgb(255, 255, 255); 
+          font-family: Arial, Helvetica, sans-serif;
+        }
