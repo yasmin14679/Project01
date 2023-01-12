@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>O que o JavaScript pode fazer?</h2>
+
+<p >A linguagem JavaScript pode alterar o conteudo de um elemento HTML.</p>
+
+<p>Neste caso JavaScript muda o valor do atributo src (source) de uma imagem.</p>
+
+<div style="border: 5px solid black; margin:10px;">
+
+<button onclick="document.getElementById('myImage').src='imagens/pic_bulbon.gif'">Acender a Luz</button>
+
+<img id="myImage" src="imagens/pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='imagens/pic_bulboff.gif'">Apagar a Luz</button>
+
+<p id="mensagem1">Secreto</p>
+
+<div padding: 30px;>
+
+<button id="botao-1" onclick="document.getElementById('mensagem1').innerHTML = 'A prática leva a Perfeição'" style="display: ;">Revelar 1ª mensagem</button>
+<button onclick="document.getElementById('mensagem2').innerHTML = 'Não pare até se orgulhar'" >Revelar 2ª mensagem</button>
+<button onclick="document.getElementById('mensagem3').innerHTML = 'O fim de um ciclo sempre trás o inicio de um novo caminho'">Revelar 3ª mensagem</button>
+</div>
+
+<button onclick="document.getElementById('botao-1').style.display='block'">Mostrar botões</button>
+
+<button onclick="document.getElementById('botao-1').style.display = 'none'">Ocultar botões</button>
+
+</div>
+
+</body>
+</html>
