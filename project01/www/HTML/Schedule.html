@@ -1,59 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title> Schedule para alcançar meus objetivos</title>
-     <style>
-      body{
-        font-family: verdana;
-      }
-      table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        border-left:3px solid #000000;
-        border-right:3px solid #000000;
-      }
-      
-      td, th {
-        border: 3px solid #000000;
-        border-color: #000000;
-        border-left:3px solid rgb(75, 7, 7);
-        border-right:3px solid rgb(75, 7, 7);
-        text-align: collapse;
-        padding: 8px;
-      }
-      
-      tr:nth-child(even) {
-        background-color: grey;
-      }
-      tr {
-  background-color: aquamarine;
-}
-     </style>
-</head>
-<body>
-
-<h1> &#10052; SCHEDULE &#10052;</h1>
-<img src="/project01/www/schedule.png" width="150px" height="150px">
-<br>
-<p>
-  &#127937; Este schedule deve ser lido antes de iniciar a minha jornada &#127937;
-</p>
-<p>
-  &#127937; Um sonho, sem um plano, não passa de um sonho. Um plano sem ação, não leva a nada. Bora acionar! &#127937;
-</p>
-<table>
-  <tr>
+ <head>
+    <title>Schedule para alcançar meus objetivos</title>
+    <link rel="stylesheet" href="/project01/www/css/styles.css">
+ </head>
+ <body>
+ <h1> &#10052; SCHEDULE &#10052;</h1>
+  <img src="/project01/www/images/schedule.png" width="15%" height="15%">
+  <br>
+  <p>
+   &#127937; Este schedule deve ser lido antes de iniciar a minha jornada &#127937;
+   </p>
+   <p>
+   &#127937; Um sonho, sem um plano, não passa de um sonho. Um plano sem ação, não leva a nada. Bora acionar! &#127937;
+ </p>
+ <table>
+   <tr>
     <th>&#9200;Horário</th>
-    <th>Segunda</th>
-    <th> Terça</th>
-    <th>Quarta</th>
-    <th>Quinta</th>
-    <th>Sexta</th>
-    <th>Sábado</th> 
-    <th>Domingo</th>
+    <th class="dia-semana">Segunda</th>
+    <th class="dia-semana">Terça</th>
+    <th class="dia-semana">Quarta</th>
+    <th class="dia-semana">Quinta</th>
+    <th class="dia-semana">Sexta</th>
+    <th class="dia-semana">Sábado</th> 
+    <th class="dia-semana">Domingo</th>
     <th>Realizado?</th>  
-</tr>
-  <tr>
+   </tr>
+  <tr class="tabela-linha">
     <th>00:00</th>
     <th>dormir</th>
     <th>dormir</th>
@@ -67,7 +40,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>00:30</th>
     <th>dormir</th>
     <th>dormir</th>
@@ -81,7 +54,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>01:00</th>
     <th>dormir</th>
     <th>dormir</th>
@@ -90,12 +63,12 @@
     <th>dormir</th>
     <th>dormir</th>
     <th>dormir</th>
-    <th><label class="container">
-      <input type="checkbox">
-      <span class="checkmark"></span>
+   <th><label class="container">
+     <input type="checkbox">
+     <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>01:30</th>
     <th>dormir</th>
     <th>dormir</th>
@@ -109,7 +82,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>02:00</th>
     <th>dormir</th>
     <th>dormir</th>
@@ -123,7 +96,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>02:30</th>
     <th>dormir</th>
     <th>dormir</th>
@@ -137,7 +110,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>03:00</th>
     <th>dormir</th>
     <th>dormir</th>
@@ -151,7 +124,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>03:30</th>
     <th>dormir</th>
     <th>dormir</th>
@@ -165,7 +138,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>04:00</th>
     <th>dormir</th>
     <th>dormir</th>
@@ -179,7 +152,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>04:30</th>    
     <th>dormir</th>
     <th>dormir</th>
@@ -188,9 +161,12 @@
     <th>dormir</th>
     <th>dormir</th>
     <th>dormir</th>
-    <th></th>
+    <th><label class="container">
+      <input type="checkbox">
+      <span class="checkmark"></span>
+    </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>05:00</th>
     <th>dormir</th>
     <th>Acorda, Me Arrummar e Tomar Café</th>
@@ -204,7 +180,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>05:30</th>
     <th>dormir</th>
     <th>Esperar dar o Horario de sair</th>
@@ -218,7 +194,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>06:00</th>
     <th>Acorda e Tomar café</th>
     <th>Sair Para ir ao Ponto Para Pegar o ônibus</th>
@@ -232,7 +208,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>06:30</th>
     <th>Arrumar a Casa</th>
     <th>Pegar o Ônibus</th>
@@ -245,7 +221,7 @@
       <input type="checkbox">
       <span class="checkmark"></span>
     </label></th>
-  <tr>
+  <tr class="tabela-linha">
     <th>07:00</th>
     <th>Arrumar a Casa</th>
     <th>Tempo Livre</th>
@@ -259,7 +235,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>07:30</th>
     <th>Arrumar a Casa</th>
     <th>Chegar no Curso</th>
@@ -273,7 +249,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>08:00</th>
     <th>Arrumar a Casa</th>
     <th>Curso</th>
@@ -287,7 +263,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>08:30</th>
     <th>Arrumar a Casa</th>
     <th>Curso</th>
@@ -301,7 +277,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>09:00</th>
     <th>Arrumar a Casa</th>
     <th>Curso</th>
@@ -316,7 +292,7 @@
     </label></th>
   </tr>
   
-  <tr>
+  <tr class="tabela-linha">
     <th>09:30</th>
     <th>Arrumar a Casa</th>
     <th>Curso</th>
@@ -330,7 +306,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>10:00</th>
     <th>Arrumar a Casa</th>
     <th>Curso</th>
@@ -344,7 +320,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>10:30</th>
     <th>Arrumar a Casa</th>
     <th>Curso</th>
@@ -358,7 +334,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>11:00</th>
     <th>Arrumar a Casa</th>
     <th>Curso</th>
@@ -372,7 +348,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>11:30</th>
     <th>Esquentar a Comida</th>
     <th>Curso</th>
@@ -386,7 +362,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>12:00</th>
     <th>Almoçar</th>
     <th>Ir Para o Ponto de Ônibus</th>
@@ -400,7 +376,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>12:30</th>
     <th>Tempo Livre</th>
     <th>Tempo Livre</th>
@@ -414,7 +390,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>13:00</th>
     <th>Tomar Banho</th>
     <th>Pegar o Ônibus</th>
@@ -428,13 +404,13 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>13:30</th>
-    <th>Fazer Lição de Casa Caso Tenha</th>
+    <th>Estudar</th>
     <th>Tempo Livre</th>
-    <th>Fazer Lição de Casa Caso Tenha</th>
+    <th>Estudar</th>
     <th>Tempo Livre</th>
-    <th>Fazer Lição de Casa Caso Tenha</th>
+    <th>Estudar</th>
     <th>Chegar em Casa</th>
     <th>Tempo Livre</th>
     <th><label class="container">
@@ -442,13 +418,13 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>14:00</th>
-    <th>Fazer Lição de Casa Caso Tenha</th>
+    <th>Estudar</th>
     <th>Chegar em Casa</th>
-    <th>Fazer Lição de Casa Caso Tenha</th>
+    <th>Estudar</th>
     <th>Chegar em Casa</th>
-    <th>Fazer Lição de Casa Caso Tenha</th>
+    <th>Estudar</th>
     <th>Almoça</th>
     <th>Tempo Livre</th>
     <th><label class="container">
@@ -456,13 +432,13 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>14:30</th>
-    <th>Fazer Lição de Casa Caso Tenha</th>
+    <th>Estudar</th>
     <th>Tomar Banho</th>
-    <th>Fazer Lição de Casa Caso Tenha</th>
+    <th>Estudar</th>
     <th>Tomar Banho</th>
-    <th>Fazer Lição de Casa Caso Tenha</th>
+    <th>Estudar</th>
     <th>Tomar Banho</th>
     <th>Tempo Livre</th>
     <th><label class="container">
@@ -470,13 +446,13 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>15:00</th>
-    <th>Fazer Lição de Casa Caso Tenha</th>
+    <th>Estudar</th>
     <th>Me Arruma Para Ir para a Escola</th>
-    <th>Fazer Lição de Casa Caso Tenha</th>
+    <th>Estudar</th>
     <th>Me Arruma Para Ir para a Escola</th>
-    <th>Fazer Lição de Casa Caso Tenha</th>
+    <th>Estudar</th>
     <th>Arrumar a Casa</th>
     <th>Tempo Livre</th>
     <th><label class="container">
@@ -484,7 +460,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>15:30</th>
     <th>Arrumar a Mochila</th>
     <th>Arrumar a Mochila</th>
@@ -498,7 +474,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>16:00</th>
     <th>Esquentar a Comida</th>
     <th>Esquentar a Comida</th>
@@ -512,7 +488,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>16:30</th>
     <th>Jantar</th>
     <th>Jantar</th>
@@ -526,7 +502,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>17:00</th>
     <th>Me Arruma Para Ir para a Escola</th>
     <th>Tempo Livre</th>
@@ -540,7 +516,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>17:30</th>
     <th>Tempo Livre</th>
     <th>Tempo Livre</th>
@@ -554,7 +530,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>18:00</th>
     <th>Sair para ir a Escola</th>
     <th>Sair para ir a Escola</th>
@@ -568,7 +544,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>18:30</th>
     <th>Pegar o Ônibus</th>
     <th>Pegar o Ônibus</th>
@@ -582,7 +558,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>19:00</th>
     <th>Chegar na Escola</th>
     <th>Chegar na Escola</th>
@@ -596,7 +572,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>19:30</th>
     <th>Matemática</th>
     <th>Geografia</th>
@@ -610,7 +586,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>20:00</th>
     <th>Português</th>
     <th>Português</th>
@@ -624,7 +600,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>20:30</th>
     <th>Física</th>
     <th>Sociologia</th>
@@ -638,7 +614,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>21:00</th>
     <th>Intervalo</th>
     <th>Intervalo</th>
@@ -652,7 +628,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>21:30</th>
     <th>Biologia</th>
     <th>Filosofia</th>
@@ -666,7 +642,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>22:00</th>
     <th>Biologia até 22:15</th>
     <th>Filosofia até 22:15</th>
@@ -680,7 +656,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>22:30</th>
     <th>Física</th>
     <th>Sociologia</th>
@@ -694,7 +670,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>23:00</th>
     <th>Sair da Escola e Pegar o Ônibus</th>
     <th>Sair da Escola e Pegar o Ônibus</th>
@@ -708,7 +684,7 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-  <tr>
+  <tr class="tabela-linha">
     <th>23:30</th>
     <th>Chegar em casa e ir Dormir</th>
     <th>Chegar em casa e ir Dormir</th>
@@ -722,9 +698,6 @@
       <span class="checkmark"></span>
     </label></th>
   </tr>
-
-</table>
-
-</body>
+ </table>
+ </body>
 </html>
-

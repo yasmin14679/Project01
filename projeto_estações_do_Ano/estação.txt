@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Estações do Ano</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Ubuntu:wght@300;500;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    li {
+      color: blue;
+    }
+
+    p {
+      font-family: 'Fira Sans Condensed', sans-serif;
+    }
+
+    h1 {
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 300;
+    }
+
+    .titulo-1 {
+      font-family: 'Fira Sans Condensed', sans-serif;
+      font-weight: 300;
+      font-size: 2rem;
+    }
+
+    .titulo-2 {
+      font-family: 'Bungee', cursive;
+      font-weight: 300;
+      font-size: 1rem;
+    }
+
+    .paragrafo-1 {
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .estacao-do-ano {
+      color: blue;
+      font-size: 18px;
+      font-family: sans-serif;
+      display: flex;
+      list-style-type: none;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .estacao-do-ano li{
+      border: 0.2rem solid;
+      border-color: black;
+      padding: 0rem 2rem;
+    }
+
+    .imagem-estacoes {
+      text-align: center;
+      padding: 15px 20px;
+    }
+
+    .imagem-banner {
+      padding: 15px 20px;
+    }
+
+    body {
+      background-color: white;
+      color: black;
+    }
+
+    .dark-mode {
+      background-color: black;
+      color: whitesmoke;
+    }
+
+    article {
+      margin: 20px;
+      border: 2px solid;
+      padding: 15px;
+    }
+
+    .verao {
+      background-color: rgb(0, 0, 0);
+      background-image: url(/imagens/verao/Verao.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      color: rgb(20, 250, 250);
+      border-color: black;
+    }
+
+    .primavera {
+      background-color: rgb(129, 70, 79);
+      background-image: url(/imagens/primavera/primavera.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      color: black;
+      
+  
+    }
+
+    .inverno {
+      background-color: lightblue;
+      background-image: url(/imagens/inverno/inverno.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      color: rgb(0, 0, 0);
+      
+    }
+
+    .outono {
+      background-color: goldenrod;
+      background-image: url(/imagens/outono/outono.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      color: rgb(250, 250, 250);
+      border-color: black;
+      
+    }
+
+    .conteiner-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .conteiner-nav {}
+  </style>
+
+</head>
+
+<body>
+  <header id="cabecalho">
+    <div class="conteiner-header">
+      <h1 class="titulo-1">As Quatro Estações</h1>
+      <h2>Conheça Mais Sobre as Estações do Ano</h2>
+      <br>
+      <div class="conteiner-header"><img class="imagem-estacoes" src="/imagens/4_estacoes.jpg" width="35%"
+          height="auto">
+      </div>
+    </div>
+  </header>
+  <nav class="conteiner-nav">
+    <ul class="estacao-do-ano">
+      <li>
+        Primavera
+      </li>
+      <li>
+        Verão
+      </li>
+      <li>
+        Outono
+      </li>
+      <li>
+        Inverno
+      </li>
+    </ul>
+  </Nav>
+  <main>
+    <article>
+      <h1 class="titulo-2"><u>Estações do Ano</u></h1>
+
+      <p>Chamamos de estação do ano cada uma das quatro subdivisões do ano baseadas em padrões
+        climaticos. São
+        elas:
+
+      </p>
+
+      <p>As estações do ano ocorre devido a inclinação da Terra em relação ao Sol. Podemos então dizer que as estações
+        são ocasionadas pelo eixo de rotação da terra, juntamente com o movimento da mesma em torno do Sol, que dura um
+        ano
+        e recebe o nome de translação. Veja a seguir as caracteristicas de cada uma delas.</p>
+    </article>
+    <article class="primavera">
+      <h1>Primavera</h1>
+      <br>
+      <p>A primavera é a estação do ano que se segue ao inverno e precede o verão e é tipicamente associada ao
+        reflorescimento da flora terrestre. Do ponto de vista da astronomia, a primavera do Hemisfério Sul inicia-se no
+        equinócio de setembro e termina no solstício de dezembro, e a do Hemisfério Norte inicia-se no equinócio de
+        março e termina no solstício de junho. A estação, assim como as demais, não ocorre simultaneamente nos dois
+        hemisférios: enquanto num deles é primavera, no outro é outono</p>
+    </article>
+
+    <article class="verao">
+      <h1>Verão</h1>
+      <br>
+      <p>O verão é uma das quatro estações do ano, caracterizada por ser a estação mais quente. Neste período, as
+        temperaturas permanecem elevadas
+        e os dias são mais longos do que os dias das outras estações. Geralmente, o verão é também o período do ano
+        reservado às férias. O verão do hemisfério norte é chamado de "verão boreal", e o do hemisfério sul é chamado de
+        "verão austral". O
+        "verão boreal" tem início com o solstício de verão do hemisfério norte, que acontece cerca de 21 de junho, e
+        termina com o equinócio de outono nesse mesmo hemisfério, por volta de 23 de setembro. O "verão austral" tem
+        início com o solstício de verão do hemisfério sul, que acontece cerca de 21 de dezembro, e finda com o equinócio
+        de outono, por volta de 20 de março nesse mesmo hemisfério. O verão é a época mais quente do ano e a duração do
+        sol está no auge em correlação com os dias mais longos do
+        ano. Nos tempos primitivos, era comum dividir o ano em cinco estações, sendo o verão dividido em duas partes: o
+        verão
+        propriamente dito, de tempo quente e chuvoso, e o estio de tempo quente e seco, palavra da qual deriva o termo
+        "estiagem". Atualmente, usa-se o termo "estio" para um período de seca e também como um sinônimo para verão.</p>
+    </article>
+
+    <article class="outono">
+      <h1>Outono</h1>
+      <br>
+      <p>O outono é a estação do ano que sucede o verão e antecede o inverno. Nas regiões de clima
+        temperado ou subtropical é caraterizado por queda gradativa na temperatura e pelo amarelar e início da queda das
+        folhas das árvores, que indica a passagem das estações. O outono do hemisfério norte é chamado de "outono
+        boreal" e o do hemisfério sul é chamado de "outono
+        austral". O começo do outono, assim como o começo da primavera, é marcado pelo exato instante que os raios
+        solares incidem
+        perpendicularmente à linha do Equador. Isso resulta em dias e noites com duração iguais, fenômeno que é chamado
+        de equinócio e ocorre duas vezes por ano. O outono nunca ocorre ao mesmo tempo nos dois hemisférios. Se no
+        Norte é outono, no Sul é primavera</p>
+    </article>
+
+    <article class="inverno">
+      <h1>Inverno</h1>
+      <br>
+      <p>O inverno é a estação mais fria das quatro estações do ano e é comum que durante esta época, em países mais
+        perto dos polos, as temperaturas fiquem abaixo de 0 ºC e que ocorram fenômenos como a queda de neve e a formação
+        de geada.A palavra inverno deriva do latim, hibernum, que significa neutro, invernal, invernoso, tempo frio.
+        O inverno do hemisfério norte é chamado "inverno boreal" e o do hemisfério sul é chamado de "inverno austral". A
+        estação não ocorre nos dois hemisférios ao mesmo tempo: enquanto em um hemisfério o inverno está vigente, o
+        outro está vivenciando o verão.</p>
+    </article>
+
+  </main>
+  <footer>
+    <p>Atualizado em: 17/11/2022</p>
+    <p>Yasmin Gonçalves Lopes</p>
+    <p>Todos os direitos reservados. &copy;Projeto HTML 2022</p>
+  </footer>
+  <input type="color" , value="000000" onclick="myFunction()">
+  <script>
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+
+</html>

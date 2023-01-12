@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .dark-mode {
+  background-color: black;
+  color: white;
+}
+        </style>
+    </head>
+<body>
+
+<h2>O que o JavaScript pode fazer?</h2>
+
+<p id="demo">A linguagem JavaScript pode alterar o conteudo de um elemento HTML.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "O texto deste paragrafo foi alterado via JavaScript!"'>Alterar o Parágrafo</button>
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>

@@ -1,0 +1,4 @@
+ <input type="text" placeholder="Your text here">
+    <input type="color" , value="#e66465"><br>
+    <button>Submit</button>
+    <button>Cancel</button>
