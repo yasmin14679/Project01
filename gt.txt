@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function paragrafo1() {
+  document.getElementById("paragrafo1").innerHTML = "Este é um parágrafo atualizado.";
+}
+function paragrafo2() {
+  document.getElementById("paragrafo2").innerHTML = "O fim de um ciclo sempre trás o inicio de um novo caminho.";
+
+}
+</script>
+</head>
+<body>
+
+<h2>Demo JavaScript in Head</h2>
+
+<p id="paragrafo1">Parágrafo antes da atualização.</p>
+
+<button type="button" onclick="paragrafo1()">Atualizar parágrafo</button>
+
+<p id="paragrafo2">Não pare até se orgulhar.</p>
+
+<button type="button" onclick="paragrafo2()">Atualizar</button>
+
+</body>
+</html> 
