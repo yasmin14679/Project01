@@ -2,10 +2,33 @@
 <html>
 <body>
 
-<h2>My First Web Page</h2>
-<p>My First Paragraph.</p>
+<h2>Calculadora</h2>
 
 <p id="demo"></p>
+
+<script>
+
+var resultado1;
+var resultado2;
+var resultadoFinal;
+
+function soma(){
+    resultadoFinal = resultado1 + resultado2
+}
+
+function subtrai(){
+    resultadoFinal = resultado1 - resultado2
+}
+
+function divide(){
+    resultadoFinal = resultado1 / resultado2
+}
+
+function multiplicação(){
+    resultadoFinal = resultado1 * resultado2
+}
+
+</script>
 
 <button id="1" onclick="document.getElementById('demo').innerHTML = document.getElementById('demo').innerHTML + 1">1</button>
 <button id="2" onclick="document.getElementById('demo').innerHTML = document.getElementById('demo').innerHTML + 2">2</button>
@@ -18,6 +41,5 @@
 <button id="9" onclick="document.getElementById('demo').innerHTML = document.getElementById('demo').innerHTML + 9">9</button>
 <button id="0" onclick="document.getElementById('demo').innerHTML = document.getElementById('demo').innerHTML + 0">0</button>
 
-
 </body>
-</html> 
+</html>
