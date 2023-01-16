@@ -1,0 +1,26 @@
+p {
+    font-size: 2rem;
+    text-align: right;
+  }
+  
+  div {
+    border: 3px solid gray;
+    font-size: 0;
+  }
+  
+  button {
+    width: 20%;
+    height: 30px;
+    padding: 2px;
+    margin: 0.5em;
+  }
+  
+  .clear {
+    width: 50%;
+    background-color: orange;
+  }
+  
+  .submit {
+    width: 50%;
+    background-color: lightgreen;
+  }
