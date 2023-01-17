@@ -15,7 +15,17 @@ var resultado1;
 var resultado2;
 var resultadoFinal;
 
+function resultado1(){
+    resultado1 = parseInt(document.getElementById('visor').innerHTML);
+}
+
+function resultado2(){
+    resultado2 = parseInt(document.getElementById('visor').innerHTML);
+}
+
 function soma(){
+    resultado1 = parseInt(document.getElementById('visor').innerHTML);
+    resultado2 = document.getElementById('visor').innerHTML;
     resultadoFinal = resultado1 + resultado2
 }
 
@@ -46,11 +56,11 @@ function multiplicação(){
 <button id="1" onclick="document.getElementById('demo').innerHTML = document.getElementById('demo').innerHTML + 1">1</button>
 <button id="2" onclick="document.getElementById('demo').innerHTML = document.getElementById('demo').innerHTML + 2">2</button>
 <button id="3" onclick="document.getElementById('demo').innerHTML = document.getElementById('demo').innerHTML + 3">3</button>
-<button>+</button>
+<button onclick="resultado1() ">+</button>
 <button>.</button>
 <button id="0" onclick="document.getElementById('demo').innerHTML = document.getElementById('demo').innerHTML + 0">0</button>
 <button>%</button>
-<button>_</button>
+<button>-</button>
 <button class="clear">AC</button>
 <button class="submit">=</button>
     </div>
